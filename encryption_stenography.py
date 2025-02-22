@@ -6,7 +6,7 @@ import numpy as np
 import cv2_imshow
 import files
 
-# Upload image manually in Google Colab
+# Upload image manually
 uploaded = files.upload()
 
 # Get the uploaded image filename
