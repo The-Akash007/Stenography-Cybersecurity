@@ -1,6 +1,6 @@
 # Stenography-Cybersecurity
 Steganography is a technique used in cybersecurity to hide information within other files or messages. It can be used to hide text, images, videos, or audio. 
-# Image Steganography using Python and OpenCV
+# Secure Data Hiding in Images By Image Steganography using Python and OpenCV
 
 This project demonstrates a simple implementation of image steganography using Python and OpenCV. It allows users to hide (encrypt) a secret message inside an image and later retrieve (decrypt) the message using a Tkinter-based graphical user interface (GUI).
 
@@ -15,13 +15,6 @@ This project demonstrates a simple implementation of image steganography using P
 - Retrieve the hidden message from the modified image.
 - Requires the correct passcode and message length for successful extraction.
 
-### Graphical User Interface (GUI):
-A simple Tkinter-based UI facilitates:
-- Uploading a cover image.
-- Entering the secret message and passcode.
-- Encrypting (hiding) the message in the image.
-- Uploading an encrypted image.
-- Decrypting (extracting) the hidden message.
 
 ## Requirements
 Ensure you have the following dependencies installed before running the scripts:
@@ -79,11 +72,6 @@ Encryption done. Saved as 'encryptedImage.png'.
 Enter password: mysecretpass
 Secret message: Hello, world!
 ```
-
-## Notes
-- The encryption process modifies pixel values to store message bytes.
-- The message length should not exceed the image size.
-- A NULL (`\0`) byte is used as an end marker to detect message termination.
 
 ## License
 This project is open-source and available under the MIT License.
