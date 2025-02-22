@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-"""decryption Stenography.ipynb
-
 import cv2
 import numpy as np
 import cv2_imshow
